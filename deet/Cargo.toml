@@ -1,0 +1,7 @@
+[project]
+name = "deet"
+version = "0.0.0"
+
+[dependencies]
+algebra = {path = "../algebra"}
+uuid = {version = "0.7.2"}

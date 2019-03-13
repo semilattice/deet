@@ -1,0 +1,19 @@
+[[package]]
+name = "algebra"
+version = "0.0.0"
+
+[[package]]
+name = "deet"
+version = "0.0.0"
+dependencies = [
+ "algebra 0.0.0",
+ "uuid 0.7.2 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "uuid"
+version = "0.7.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[metadata]
+"checksum uuid 0.7.2 (registry+https://github.com/rust-lang/crates.io-index)" = "0238db0c5b605dd1cf51de0f21766f97fba2645897024461d6a00c036819a768"
